@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import registry from '@/components/registry'
 import login from '@/components/login'
 import goods from '@/components/goods'
-import shopcart from '@/components/shopcart'
 
 Vue.use(Router)
 
@@ -21,10 +20,6 @@ export default new Router({
       path:'/goods',
       name:'goods',
       component:goods
-    },{
-      path:'/shopcart',
-      name:'shopcart',
-      component:shopcart
     }
   ]
 })
